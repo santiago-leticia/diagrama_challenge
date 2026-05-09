@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C793EC9-C315-AE21-5802-BD10C1CEB91A" name="T_CLYVO_CONSULTA">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>F8CAD299-E546-0702-395F-89426FA94BE5</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consulta" id="52218CF6-E6E0-BAF5-C0B1-12248854A133">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>640E4DDD-AE94-C0FD-B42D-C58DCB07F7A7</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="historico_consulta" id="5B69DA00-1F9F-5D2C-5A3F-A3F7A4F41F19">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>01370A18-5B70-BC2D-F15A-EE32D1125895</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_consulta" id="B777ADE6-B9BD-BA3D-9DDA-0167ED6B9D6A">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[ATIVO -> Se a consulta ainda estiver valendo
+INATIVO -> se foi uma consuta passada, 
+
+ou
+
+PASSADA
+EM EXECUÇÃO
+FUTURA
+CANCELADA
+
+
+OBS : essa tabela tb funciona como um historico de consultas]]></commentInRDBMS>
+<generatorID>C5002976-EE70-A74A-E272-A1EAB0AAAFAA</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_consulta" id="5FD06435-5959-0F44-FF75-3FD02E32B373">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>1E5B4071-5B39-90B5-D98C-44CC53C4CCFA</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CLYVO_VET_id_vet" id="58DADDED-3E92-17AE-66DB-F587293B7907">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>A4C586F9-68FE-433D-CA92-E808E77DB248</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30AF70FC-6286-FA13-8645-E73BC7B37101" referredColumn="B57E3493-91F1-C411-01B6-6AC26EEA01B3"/>
+</associations>
+</Column>
+<Column name="T_CLYVO_ANIMAL_id_animal" id="FCE2EA77-4282-9BD6-2967-CE9D9B834486">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>ABC5F92D-BE07-6506-E7A3-A6C6C0AD1C1E</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37AE9117-F93E-1113-56B0-561B32ADC322" referredColumn="A2725673-CC98-FFB3-6823-2AA1493F8710"/>
+</associations>
+</Column>
+<Column name="T_CLYVO_PRESCRICAO_id_prescricao" id="DA2EABAC-D3F4-DFFB-C9C7-702D30BA7CC2">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>D6F5A36E-AC48-EE6E-AB77-6ACCF2D27675</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3456AACB-719D-DAE5-34F1-1147A873F2FE" referredColumn="0DDAD2EF-72C1-5BE5-B23B-989ABBE8D8DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01F5ABD4-B4EC-3A8F-7A6D-E211B2F7A176" name="T_CLYVO_CONSULTA_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>1A257A7C-387B-E9A8-AB00-5171F1DA5F7A</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52218CF6-E6E0-BAF5-C0B1-12248854A133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8DD5806-B476-928D-932B-F1240545A3D7" name="T_CLYVO_CONSULTA__IDX">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B2C75087-39E0-1CA2-916C-6610B708D2F0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DA2EABAC-D3F4-DFFB-C9C7-702D30BA7CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24640B3F-6F41-4BBE-C523-BF27668C434B" name="T_CLYVO_CONSULTA_T_CLYVO_VET_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>A8B0F999-598A-1263-DE35-F9B84CC04B96</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58DADDED-3E92-17AE-66DB-F587293B7907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2859E6D4-2258-19E0-ACA9-E507FD2A32CA" name="T_CLYVO_CONSULTA_T_CLYVO_ANIMAL_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>3ABF1389-D8F9-6B97-8974-772DA08844E1</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCE2EA77-4282-9BD6-2967-CE9D9B834486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79F4128C-B105-211C-65C9-B65ED76D2B41" name="T_CLYVO_CONSULTA_T_CLYVO_PRESCRICAO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>B2C75087-39E0-1CA2-916C-6610B708D2F0</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA2EABAC-D3F4-DFFB-C9C7-702D30BA7CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

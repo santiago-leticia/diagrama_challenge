@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96AD8395-8B3B-1E97-6C44-7E933E9A46F4" name="T_CLYVO_VET">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>4F62A77E-F2DA-14D1-4E2A-6571C5D26249</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vet" id="B57E3493-91F1-C411-01B6-6AC26EEA01B3">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>11795337-2D2B-A8E4-3531-9FA7251E7C6F</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_vet" id="9E6D95FA-C973-7113-DB53-CD44FC43909C">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>BE45C585-76F1-9088-35B5-58AFE30CF012</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_vet" id="447E6C17-B767-EF6B-48ED-CCEAB68E0107">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>0BB6271C-C19B-B8CD-0404-452A09E1A61B</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crmv_vet" id="2174BE37-DE87-B31E-FC7C-CACB0C0C4C56">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>E3F410AB-29F5-6029-FAC8-23E911990407</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B46954B1-9D99-109A-C9BD-5CF832FD55F2">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>7B5CAA91-50C7-74F3-3A55-473BBC22EA30</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="BB5609DE-C7D0-44F0-768E-6A4953C5D088">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>240CB118-5C05-5580-43B5-63AC02E01E8C</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8731109-1E32-30EF-E90B-2FEC153C7CF8" name="T_CLYVO_VET_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>83468A0D-BD2A-44D8-E745-C95DC05DBE0E</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B57E3493-91F1-C411-01B6-6AC26EEA01B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

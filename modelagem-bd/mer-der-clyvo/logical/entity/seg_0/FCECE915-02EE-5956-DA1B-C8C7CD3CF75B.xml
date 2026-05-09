@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCECE915-02EE-5956-DA1B-C8C7CD3CF75B" name="T_CLYVO_TUTOR">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-04-30 23:01:22 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tutor" id="49E71ECE-1BEB-2D77-3A08-ABD592B3CD32">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:08:54 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_tutor" id="08321A9B-146E-A41E-285D-B8C699EA9EB6">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:09:02 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tutor" id="566BC802-29EE-0E8F-6010-ABD15DDDCE57">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:09:26 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone_tutor" id="5EE49173-31EA-036B-2E41-3D046BEAE535">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:17:36 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D5E3EDA-F46F-93AB-F82A-8C5C617EF946" name="TUTOR PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:09:01 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49E71ECE-1BEB-2D77-3A08-ABD592B3CD32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

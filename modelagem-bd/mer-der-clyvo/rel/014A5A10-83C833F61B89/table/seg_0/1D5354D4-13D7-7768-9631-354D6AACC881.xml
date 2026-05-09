@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D5354D4-13D7-7768-9631-354D6AACC881" name="CLINICA">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>889F641E-CE7D-7DFF-74C2-155C11D71857</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_clinica" id="FF6D406C-D0C3-FBAF-780F-248AA41B3CC7">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>070F3C6A-DE53-1110-AC0F-0B812D5640EC</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj_clinica" id="8D226CA5-4A38-CDFA-7EB9-B9C53D37752B">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>085D69C7-150E-14A3-6EAD-5537752FAF82</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_clinica" id="642E7407-B683-A3AD-2526-562760D1D6B6">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>5187061A-9650-923F-81B4-26C58F775A3D</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CLYVO_ENDERECO_CLINICA_id_endereco_clinica" id="15E7DC3C-8EDE-89B2-6673-37652054EFBD">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>E2D285A3-DC9E-94E2-3562-2E500CA0D1FE</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="360EEE6A-4F25-C042-E994-FD2C60C94AAA" referredColumn="F462571C-ACD2-A1DC-F3A9-B6B60EDF98A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47E1B1E0-8128-F00A-4E53-07C7C26EA7E7" name="CLINICA_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>C7B0AC8E-CDB0-E82F-EA37-820B44E9D325</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF6D406C-D0C3-FBAF-780F-248AA41B3CC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BCECCEB-8376-7A1A-03E9-55FBB82A8972" name="CLINICA_T_CLYVO_ENDERECO_CLINICA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>0B477548-D523-4FD5-01FE-6FD501E07B6C</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15E7DC3C-8EDE-89B2-6673-37652054EFBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

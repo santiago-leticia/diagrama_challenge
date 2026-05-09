@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA1B4648-C873-FE55-00AC-622E6D94B15A" name="T_CLYVO_PRESCRICAO">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>BDE70214-7BBB-EF9B-EF98-877ECEFB1281</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prescricao" id="0DDAD2EF-72C1-5BE5-B23B-989ABBE8D8DB">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>9278C589-D5A5-4916-78BE-5152D31972E2</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medicamento_prescricao" id="ED643241-5D66-F365-D92D-305CDA42106B">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>6506CEF3-4D8F-F098-9FC8-DFFEAD8C7771</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tutor_prescricao" id="E2C9D32D-0F30-D6E9-3B54-42577C9B0935">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>97A50CC1-B175-1AFD-BB3D-436F84E1D48C</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_animal_prescricao" id="913081BF-B084-7DEC-8922-6D5803B8B109">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>D6D57D16-8D0C-7F00-3459-877B16279D1B</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_emissao" id="B624641E-5A3A-7599-5F1B-B2EFA5D14DDB">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>BB3DC97C-60CB-4418-B5CD-C996A5098D42</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_expiracao" id="793BC90F-0F4A-AAAC-3E14-652A95475891">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>3926799D-4232-1B96-5DE8-58C9850D036D</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CACB9D8C-859F-9238-0394-09DB31EE4468" name="T_CLYVO_PRESCRICAO_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>FCBAD185-696E-2701-D738-DBDB9208C7A9</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DDAD2EF-72C1-5BE5-B23B-989ABBE8D8DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

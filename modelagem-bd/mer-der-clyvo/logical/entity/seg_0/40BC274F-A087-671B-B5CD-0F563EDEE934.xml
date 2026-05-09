@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40BC274F-A087-671B-B5CD-0F563EDEE934" name="T_CLYVO_CARTEIRAVACINAL">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 18:45:56 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carteiravacinal" id="94DB0CAB-484A-69D8-291C-FFA43ACA6A46">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 18:47:45 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_vacina" id="B4B241A4-F987-FCA6-250F-990004969B41">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 19:36:12 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vacinacao_prevista" id="366215A6-9722-BC6D-6E1E-2A7CFFE13737">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 20:01:59 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vacinacao_efetuada" id="331E4B25-FA47-E816-8EED-B3BCF33FFC46">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 20:15:49 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_vacinacao" id="69E7D420-096C-EC27-6C40-3D41A3004570">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 20:12:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[
+ST_VACINAÇÃO tem os estado predefinidos de :
+
+* VACINADO ( de acordo  com a data e vacinacao efetuada);
+* ATRASADO ( de acordo com a dataprevista);
+* AGENDADO ( gera nova data prevista para prox vacinacao)
+* NÃO AGENDADO ( else )
+
+
+]]></commentInRDBMS>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_animal" id="8EAFE48F-BD0A-15DA-4D81-154DD04242DF">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 19:57:15 UTC</createdTime>
+<generatorID>D86EBEE3-0CED-53E9-0066-A877E8E8AA83</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<referedAttribute>B33B579E-5ECC-4F91-E288-DDB4E3180428</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

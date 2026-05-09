@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8CAD299-E546-0702-395F-89426FA94BE5" name="T_CLYVO_CONSULTA">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:26:00 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consulta" id="640E4DDD-AE94-C0FD-B42D-C58DCB07F7A7">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:26:24 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historico_consulta" id="01370A18-5B70-BC2D-F15A-EE32D1125895">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 18:22:23 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_consulta" id="C5002976-EE70-A74A-E272-A1EAB0AAAFAA">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:26:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[ATIVO -> Se a consulta ainda estiver valendo
+INATIVO -> se foi uma consuta passada, 
+
+ou
+
+PASSADA
+EM EXECUÇÃO
+FUTURA
+CANCELADA
+
+
+OBS : essa tabela tb funciona como um historico de consultas]]></commentInRDBMS>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_consulta" id="1E5B4071-5B39-90B5-D98C-44CC53C4CCFA">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:49:10 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vet" id="A4C586F9-68FE-433D-CA92-E808E77DB248">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 17:03:53 UTC</createdTime>
+<generatorID>A8B0F999-598A-1263-DE35-F9B84CC04B96</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>11795337-2D2B-A8E4-3531-9FA7251E7C6F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_animal" id="ABC5F92D-BE07-6506-E7A3-A6C6C0AD1C1E">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 18:43:21 UTC</createdTime>
+<generatorID>3ABF1389-D8F9-6B97-8974-772DA08844E1</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<referedAttribute>B33B579E-5ECC-4F91-E288-DDB4E3180428</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_prescricao" id="D6F5A36E-AC48-EE6E-AB77-6ACCF2D27675">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 19:00:15 UTC</createdTime>
+<generatorID>B2C75087-39E0-1CA2-916C-6610B708D2F0</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<referedAttribute>9278C589-D5A5-4916-78BE-5152D31972E2</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A257A7C-387B-E9A8-AB00-5171F1DA5F7A" name="CONSULTA PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-01 16:26:29 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>640E4DDD-AE94-C0FD-B42D-C58DCB07F7A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

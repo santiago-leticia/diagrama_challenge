@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="306AE28D-F2B8-BA5F-6629-76350046F8A8" name="T_CLYVO_ENDERECO_CLINICA">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:31:16 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco_clinica" id="F33DA6CA-B4D4-2E98-EAB4-87C1DCE503C5">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:31:34 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="F37054FC-6F8D-2EAB-7630-13562BD1C0FF">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:31:49 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="F505B1C3-ADD3-E0E9-742C-3207CF306043">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:32:07 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="47A409E8-5BDC-334E-9A05-EB58ACE19743">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:32:22 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="81BB8930-2E4A-9240-7D53-6CF49856A2C4">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:32:48 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro_rua" id="3FE7BD61-CBAE-08EC-33B9-262C5C45B0D6">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:33:01 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rua" id="CBB5FBAB-1F75-7F3B-7771-3844E0CB0291">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:33:34 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="completo" id="6D1E41F2-2F89-D845-E5DA-8654617C5AE2">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:34:08 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="2580C04D-DA7A-9C23-2AB7-9A5B678FEA06">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:34:55 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="522591DD-D1F2-3B9D-DD1A-16A9880033BF">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:35:11 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6755DACC-D8E7-4ABD-B3F0-9EDECC8540BB" name="T_CLYVO_ENDERECO_CLINICA PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:31:47 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="014A5A10-0DE6-9440-9FA5-83C833F61B89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F33DA6CA-B4D4-2E98-EAB4-87C1DCE503C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

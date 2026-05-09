@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11C8BBD4-167B-5540-8EC6-43E224CF15CA" name="T_CLYVO_VET_CLINICA">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:56:10 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_clinica_vet" id="AFB69489-E0D8-16F4-C3FF-2397D6E20B54">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:56:21 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_clinica" id="8BF76FAE-7471-A8D5-520B-4848DCC2CB3A">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:00:24 UTC</createdTime>
+<generatorID>238AC25F-2D38-7D2E-FB2A-B6F9C6E00EE2</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<referedAttribute>070F3C6A-DE53-1110-AC0F-0B812D5640EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vet" id="E10FF1A7-2B2E-4346-FC3F-7B5EA0F61A4F">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:00:41 UTC</createdTime>
+<generatorID>8A2434E0-E129-88B0-79AA-531979464C44</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<referedAttribute>11795337-2D2B-A8E4-3531-9FA7251E7C6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23F2775E-EF67-D3A3-D786-D6BB79362B53" name="T_CLYVO_VET_CLINICA PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 19:56:31 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFB69489-E0D8-16F4-C3FF-2397D6E20B54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

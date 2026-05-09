@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="904D7FB9-B407-728E-BBAB-B43418C0057C" name="T_CLYVO_CARTEIRAVACINAL">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>40BC274F-A087-671B-B5CD-0F563EDEE934</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carteiravacinal" id="E5AED9F2-A422-FB33-6AFC-E3755A22F126">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>94DB0CAB-484A-69D8-291C-FFA43ACA6A46</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_vacina" id="BD3B8140-2F82-ECBF-50C1-C7F76D60CBCF">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>B4B241A4-F987-FCA6-250F-990004969B41</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vacinacao_prevista" id="30F1950C-4B4F-E702-23E5-184FB93F0B57">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>366215A6-9722-BC6D-6E1E-2A7CFFE13737</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vacinacao_efetuada" id="E113E1AB-0280-7FCF-0B3D-C420169D98F2">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>331E4B25-FA47-E816-8EED-B3BCF33FFC46</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_vacinacao" id="6C8B98B1-366A-0ABD-5D6C-D034AC84E28A">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[
+ST_VACINAÇÃO tem os estado predefinidos de :
+
+* VACINADO ( de acordo  com a data e vacinacao efetuada);
+* ATRASADO ( de acordo com a dataprevista);
+* AGENDADO ( gera nova data prevista para prox vacinacao)
+* NÃO AGENDADO ( else )
+
+
+]]></commentInRDBMS>
+<generatorID>69E7D420-096C-EC27-6C40-3D41A3004570</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CLYVO_ANIMAL_id_animal" id="3FE45EA0-8B0A-5B57-D471-93D3E5C5548E">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>8EAFE48F-BD0A-15DA-4D81-154DD04242DF</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="608E5922-D4AE-7DDE-0856-1DBEF0B8742A" referredColumn="A2725673-CC98-FFB3-6823-2AA1493F8710"/>
+</associations>
+</Column>
+<Column name="T_CLYVO_CARTEIRAVACINAL_ID" id="3134600C-F403-3D94-ABAF-4E9DBC58ADB3">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C40AAAB7-C9A6-2047-3679-18227F13E5E0" name="T_CLYVO_CARTEIRAVACINAL_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3134600C-F403-3D94-ABAF-4E9DBC58ADB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14590BCF-4075-5768-4091-4C0A1BFCAA18" name="T_CLYVO_CARTEIRAVACINAL__IDX">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D86EBEE3-0CED-53E9-0066-A877E8E8AA83</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3FE45EA0-8B0A-5B57-D471-93D3E5C5548E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8209AD29-7F0C-C71B-918E-FB3A2237F548" name="T_CLYVO_CARTEIRAVACINAL_T_CLYVO_ANIMAL_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>D86EBEE3-0CED-53E9-0066-A877E8E8AA83</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE45EA0-8B0A-5B57-D471-93D3E5C5548E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

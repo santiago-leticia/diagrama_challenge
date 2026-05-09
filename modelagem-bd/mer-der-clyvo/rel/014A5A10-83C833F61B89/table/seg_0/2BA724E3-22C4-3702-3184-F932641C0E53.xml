@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BA724E3-22C4-3702-3184-F932641C0E53" name="T_CLYVO_VET_CLINICA">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>11C8BBD4-167B-5540-8EC6-43E224CF15CA</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_clinica_vet" id="604D1568-0C25-1C1A-68C6-FEDB373767C6">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>AFB69489-E0D8-16F4-C3FF-2397D6E20B54</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLINICA_id_clinica" id="FB925267-6EE9-9C13-CBC8-BE189988E724">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>8BF76FAE-7471-A8D5-520B-4848DCC2CB3A</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E3B2CE6-C41E-0C49-7C5D-F1FE11AA62AB" referredColumn="FF6D406C-D0C3-FBAF-780F-248AA41B3CC7"/>
+</associations>
+</Column>
+<Column name="T_CLYVO_VET_id_vet" id="BE37EF03-7A96-6DD5-1443-7F18A2BB61E2">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>E10FF1A7-2B2E-4346-FC3F-7B5EA0F61A4F</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7DF9818-4E9A-A0A9-5729-AA2483234CDF" referredColumn="B57E3493-91F1-C411-01B6-6AC26EEA01B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F0FB08C-46B6-29D3-36A4-F248CFD38332" name="T_CLYVO_VET_CLINICA_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>23F2775E-EF67-D3A3-D786-D6BB79362B53</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604D1568-0C25-1C1A-68C6-FEDB373767C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A79E51E-F0D8-66D1-C25A-F6DE4BE61D54" name="T_CLYVO_VET_CLINICA__IDX">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>238AC25F-2D38-7D2E-FB2A-B6F9C6E00EE2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FB925267-6EE9-9C13-CBC8-BE189988E724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA601A9C-AFE7-A24A-C791-2645690BE740" name="T_CLYVO_VET_CLINICA__IDXv1">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8A2434E0-E129-88B0-79AA-531979464C44</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BE37EF03-7A96-6DD5-1443-7F18A2BB61E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A81A2337-94ED-AFC8-5F78-F20D613DEACA" name="T_CLYVO_VET_CLINICA_CLINICA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>238AC25F-2D38-7D2E-FB2A-B6F9C6E00EE2</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB925267-6EE9-9C13-CBC8-BE189988E724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76E96F53-F086-1E02-3E12-AEE4A58F7523" name="T_CLYVO_VET_CLINICA_T_CLYVO_VET_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:04:27 UTC</createdTime>
+<generatorID>8A2434E0-E129-88B0-79AA-531979464C44</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE37EF03-7A96-6DD5-1443-7F18A2BB61E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

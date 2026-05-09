@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mer-der-clyvo" id="60059824-6FA0-393C-03C6-D958F63541B2" version="3.5">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-04-30 23:00:54 UTC</createdTime>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>60059824-6FA0-393C-03C6-D958F63541B2</designId>
+</OSDM_Design>

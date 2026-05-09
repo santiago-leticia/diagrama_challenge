@@ -4,7 +4,7 @@
 <createdTime>2026-04-30 23:02:10 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-01 16:09:51 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2026-05-01 18:50:08 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <createdTime>2026-05-01 18:48:47 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,7 +61,7 @@
 <commentInRDBMS><![CDATA[Nem todo animal tem um nome. O nome nesse caso é uma forma de identificação]]></commentInRDBMS>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,7 +74,7 @@
 <createdTime>2026-05-01 16:12:24 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,7 +86,7 @@
 <createdTime>2026-05-01 18:17:32 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -100,7 +100,7 @@
 <createdTime>2026-05-01 18:17:49 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -113,7 +113,7 @@
 <createdTime>2026-05-01 18:18:45 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -127,9 +127,23 @@
 <generatorID>4D8D25A1-5017-F972-BB0F-3AB82EC91C99</generatorID>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <referedAttribute>49E71ECE-1BEB-2D77-3A08-ABD592B3CD32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco_usuario" id="47FB747D-0A16-5E70-AF52-0CFB0FE1E3E5">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:33:52 UTC</createdTime>
+<generatorID>88E1ADB9-0006-EAB5-29C4-CFF400D3C904</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<engineerTo>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
+</engineerTo>
+<referedAttribute>C3BB8559-0CBF-5B2B-1C8D-8FA20549CC77</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -141,9 +155,8 @@
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-01 16:10:49 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="false"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

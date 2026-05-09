@@ -4,7 +4,7 @@
 <createdTime>2026-05-01 19:03:14 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-01 19:03:23 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2026-05-01 19:05:47 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2026-05-01 19:06:04 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2026-05-01 19:06:10 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,7 +71,7 @@
 <createdTime>2026-05-01 19:06:14 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,7 +84,7 @@
 <createdTime>2026-05-01 19:06:22 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -97,7 +97,7 @@
 <createdTime>2026-05-01 19:06:38 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,7 +110,7 @@
 <createdTime>2026-05-01 19:08:21 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -123,7 +123,7 @@
 <createdTime>2026-05-01 19:10:28 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -136,26 +136,13 @@
 <createdTime>2026-05-01 19:30:50 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_animal" id="FC52F65D-2F19-76C4-4CB3-1868318C601A">
-<createdBy>Dudu</createdBy>
-<createdTime>2026-05-01 19:25:55 UTC</createdTime>
-<generatorID>F8AB6D34-A82F-E2E2-2956-0CFD7E03FC6A</generatorID>
-<ownerDesignName>mer-der-clyvo</ownerDesignName>
-<engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
-</engineerTo>
-<referedAttribute>B33B579E-5ECC-4F91-E288-DDB4E3180428</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -164,7 +151,7 @@
 <createdTime>2026-05-01 19:03:50 UTC</createdTime>
 <ownerDesignName>mer-der-clyvo</ownerDesignName>
 <engineerTo>
-<item key="767E9361-8CCF-7979-6B49-AF22F303B952" value="true"/>
+<item key="09B23FFB-0DDB-F289-B611-32E375062A5D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78DD570F-704D-0A98-D80F-459FA2D95A0E" name="T_CLYVO_TUTOR">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>FCECE915-02EE-5956-DA1B-C8C7CD3CF75B</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tutor" id="56F7A891-C353-F614-575D-4181739675F9">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>49E71ECE-1BEB-2D77-3A08-ABD592B3CD32</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_tutor" id="5963929A-5691-B1C7-1DC4-24A59ADAF227">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>08321A9B-146E-A41E-285D-B8C699EA9EB6</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tutor" id="F2703F44-E1C4-63C4-CBA3-43D75934513A">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>566BC802-29EE-0E8F-6010-ABD15DDDCE57</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone_tutor" id="BF7A5DDB-DDE1-45D9-EB8C-A083A6E39DF0">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>5EE49173-31EA-036B-2E41-3D046BEAE535</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACF904B0-8EF7-AC96-C144-E9A3D6277690" name="T_CLYVO_TUTOR_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>2D5E3EDA-F46F-93AB-F82A-8C5C617EF946</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56F7A891-C353-F614-575D-4181739675F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

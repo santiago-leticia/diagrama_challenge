@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBFD1B49-5EC3-9A6B-83A7-92E975668A96" containerWithKeyObject="644C9983-5B20-8553-76E3-72311358566D" localFKIndex="D1E3450A-BFA6-C67A-E5BC-19456FD2A50C" name="T_CLYVO_MEDICAMENTO_T_CLYVO_PRESCRICAO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>5802B89E-BD39-A6A7-A080-77989FAA8E7C</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<referredTableLongName>T_CLYVO_PRESCRICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2AAACD3C-63FE-5232-F753-0D0268D2EC44</referredTableID>
+<keyObject>1745AC5E-F691-0C06-71E1-728AAD52D931</keyObject>
+<referredKeyID>1745AC5E-F691-0C06-71E1-728AAD52D931</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_prescricao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

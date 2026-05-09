@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6CEF3EA6-0F5F-4FBE-E716-0774388459CD" containerWithKeyObject="B49698B9-FA9E-6DAC-B217-1FD9E0CC1901" localFKIndex="686E5388-798B-3E39-E9D0-905C05650D29" name="T_CLYVO_CONSULTA_T_CLYVO_VET_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-09 20:16:05 UTC</createdTime>
+<generatorID>A8B0F999-598A-1263-DE35-F9B84CC04B96</generatorID>
+<ownerDesignName>mer-der-clyvo</ownerDesignName>
+<referredTableLongName>T_CLYVO_VET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9207453B-4303-AE0F-0F7B-156C874EF527</referredTableID>
+<keyObject>53DD6DD3-EE57-52D7-FA64-6F3900C5E94B</keyObject>
+<referredKeyID>53DD6DD3-EE57-52D7-FA64-6F3900C5E94B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_vet</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
